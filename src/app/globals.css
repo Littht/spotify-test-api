@@ -105,3 +105,18 @@ a {
     color-scheme: dark;
   }
 }
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  gap:20px;
+  background-color: #4f4f4f;
+  border-radius: 10px;
+}
+ol{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
